@@ -12,18 +12,6 @@
 
     - **PDF**: Officially finalized documents for legal preservation, patent examination disclosure and formal delivery. All patent documents are archived only in PDF format for official standard retention and prior-art evidence preservation.
 
-- **外部权限**：专利文书的核心理念是 **“发布即交付”——每一份专利文书都不是征求意见稿，而是构建者深思熟虑之后的完整技术方案交付。** 因此，本仓库为永久只读归档仓库，不接收任何外部PR、Issue及修改贡献。专利文书的最终解释权、迭代权属归官方所有。
-
-- **Contribution Policy**: The core principle of patent documents is **"Release as Delivery" — each patent document is not a draft for discussion, but a complete technical solution deliverable from its builder.** Therefore, this is a permanent read-only archive. No external PRs, issues or modifications are accepted. The final interpretation and iteration rights of all patent documents are reserved by the official operator.
-
-- **法律基座**：本仓库全部专利文书与合规文本，遵循 **QNLOO-SPL 主权公开许可范式 v1.0** 规范执行，与 `PATENTS` 专利授权说明书协同配套。完整范式标准详见官方基准仓库。
-
-- **Legal Base**: All patent documents and compliance texts in this repository are governed by the QNLOO-SPL Sovereign Public License Paradigm v1.0, in conjunction with the accompanying `PATENTS` file. Complete paradigm specifications can be found in the official reference repository.
-
-- 本仓库采用双资产分层许可架构：核心资产适用根目录 LICENSE 对应许可；源代码类资产适用 LICENSE-APACHE；商事运营与价值分配规则适用 LICENSE-QNLOO-SPL。专利授权补充说明详见 PATENTS 文件。
-
-- This repository adopts a dual-asset tiered licensing architecture: core assets are governed by the license corresponding to the root LICENSE file; source code assets are governed by LICENSE-APACHE; commercial operations and value distribution rules are governed by LICENSE-QNLOO-SPL. For patent grant addendum, see the PATENTS file.
-
 ---
 
 ### 2. 全语种资产总览 / Cross-Lingual Asset Overview
@@ -33,7 +21,7 @@
 **Description**: This archive contains the complete official documents for all six core invention patents of the *River of Cognition* and supporting compliance authorization files. Patent documents are provided in bilingual Chinese-English versions, with each patent consisting of four independent PDF files: Claims, Specification, Abstract, and Drawings.
 
 
-### 💡 2.1 关于本体系专利组合 / About the Patent Portfolio
+### 2.1 关于本体系专利组合 / About the Patent Portfolio
 
 **为什么需要专利？**
 
@@ -153,7 +141,9 @@ flowchart TD
 | `billing_contract.rs` | P-04 | 多级分账智能合约<br>Multi-Level Cascading Billing Smart Contract | 权利要求1、2、3、5<br>Claims 1, 2, 3, 5 |
 | `withdrawal_module.rs` | P-04 | 拉式提款安全模块<br>Pull-Based Withdrawal Security Module | 权利要求2、4、6<br>Claims 2, 4, 6 |
 
-> 📂 **代码样板间开源地址 / Code Blueprints Repository**：[github.com/QNLOO/01-4-cognition-river-blueprints](https://github.com/QNLOO/01-4-cognition-river-blueprints)（2026年7月15日公开 / Public on July 15, 2026）
+> 📂 **代码样板间开源地址**：[github.com/QNLOO/01-4-cognition-river-blueprints](https://github.com/QNLOO/01-4-cognition-river-blueprints)（2026年7月15日公开）
+>
+> 📂 **Code Blueprints Repository**：[github.com/QNLOO/01-4-cognition-river-blueprints](https://github.com/QNLOO/01-4-cognition-river-blueprints)（Public on July 15, 2026）
 
 
 #### 2.5 配套合规授权文件 / Supporting Compliance & Authorization Documents
@@ -170,9 +160,9 @@ flowchart TD
 
 | 文件 / File | 说明 / Description |
 | :--- | :--- |
-| `LICENSE` | 仓库默认主许可，存放 QNLOO-SPL v1.0 完整法律文本<br>Default master license, containing the full legal text of QNLOO-SPL v1.0 |
+| `LICENSE` | 仓库默认主许可，存放 QNLOO-SPL v1.1 完整法律文本<br>Default master license, containing the full legal text of QNLOO-SPL v1.1 |
 | `LICENSE-APACHE` | Apache License 2.0 全文，适用于仓库内所有源代码类资产<br>Full text of Apache License 2.0, applicable to all source code assets in the repository |
-| `LICENSE-QNLOO-SPL` | QNLOO-SPL v1.0 主权公开许可范式完整文本，商事运营与价值分配专用<br>Full text of QNLOO-SPL v1.0 Sovereign Public License Paradigm, dedicated to commercial operations and value distribution |
+| `LICENSE-QNLOO-SPL` | QNLOO-SPL v1.1 主权公开许可范式完整文本，商事运营与价值分配专用<br>Full text of QNLOO-SPL v1.1 Sovereign Public License Paradigm, dedicated to commercial operations and value distribution |
 | `PATENTS.md` | 专利授权说明书，明确六项专利的授权范围、适用场景与约束规则<br>Patent grant specification, defining the authorization scope, applicable scenarios and restriction rules of the six patents |
 
 #### 2.6 专利文书目录 / Patent Document Directory
@@ -183,12 +173,12 @@ flowchart TD
 
 | 专利 / Patent | 中文路径 / ZH Path | 英文路径 / EN Path |
 | :--- | :--- | :--- |
-| P-01 | `patents/zh/P-01-三层分离系统架构/` | `patents/en/P-01-Three-Layer-Separation-Architecture/` |
-| P-02 | `patents/zh/P-02-标准化认知协议封装/` | `patents/en/P-02-Standardized-Cognitive-Protocol-Packaging/` |
-| P-03 | `patents/zh/P-03-本地隐私确权与同步/` | `patents/en/P-03-Local-Privacy-Right-Confirmation-and-Synchronization/` |
-| P-04 | `patents/zh/P-04-多级收益自动分账/` | `patents/en/P-04-Cascading-Revenue-Auto-Settlement/` |
-| P-05 | `patents/zh/P-05-逻辑连续性真诚审计/` | `patents/en/P-05-Logic-Continuity-Sincerity-Audit/` |
-| P-06 | `patents/zh/P-06-按效果结算与验证系统/` | `patents/en/P-06-Outcome-Based-Pricing-and-Settlement-System/` |
+| P-01 | `6-patents/zh/P-01-三层分离系统架构/` | `6-patents/en/P-01-Three-Layer-Separation-Architecture/` |
+| P-02 | `6-patents/zh/P-02-标准化认知协议封装/` | `6-patents/en/P-02-Standardized-Cognitive-Protocol-Packaging/` |
+| P-03 | `6-patents/zh/P-03-本地隐私确权与同步/` | `6-patents/en/P-03-Local-Privacy-Right-Confirmation-and-Synchronization/` |
+| P-04 | `6-patents/zh/P-04-多级收益自动分账/` | `6-patents/en/P-04-Cascading-Revenue-Auto-Settlement/` |
+| P-05 | `6-patents/zh/P-05-逻辑连续性真诚审计/` | `6-patents/en/P-05-Logic-Continuity-Sincerity-Audit/` |
+| P-06 | `6-patents/zh/P-06-按效果结算与验证系统/` | `6-patents/en/P-06-Outcome-Based-Pricing-and-Settlement-System/` |
 
 > 每项专利目录下均包含四份文件：`01-权利要求书.pdf` / `02-说明书.pdf` / `03-说明书摘要.pdf` / `04-说明书附图.pdf`
 > 
@@ -206,71 +196,81 @@ flowchart TD
 
 ---
 
-### 4. 分级授权使用规范 / Tiered License Terms (QNLOO-SPL v1.0 Compliant)
 
-- **✅ 个人 / 学术 / 非营利场景（永久免费）**
+## 4. 官方生态入口 / Official Ecosystem Links
 
-  个人学习、学术研究、非盈利分享交流场景，可永久免费查阅、下载、引用本仓库所有专利文书与合规文件，无需并网与授权。
+整个千年鹿认知体系由五大核心板块构成，覆盖规则范式、方法论与工具载体、理论体系、技术专利、工程实现五大层级，各板块底层逻辑完全同构。
 
-- **✅ Personal / Academic / Non-Profit (Permanent Free)**
+The entire QNLOO cognition system consists of five core modules, covering five layers: rule paradigm, methodology & tool carrier, theoretical system, technical patents, and engineering implementation. All modules share the identical underlying logic.
 
-  All patent documents and compliance files in this repository are permanently free for personal study, academic research and non-profit communication with no integration or license application required.
-
-- **✅ 小微商业普惠使用权益**
-
-  年度关联业务营收不超过100万元人民币、完整适配价值协议生态并通过官方一致性校验的小微主体，可免费商用本体系专利技术方案。
-
-- **✅ Small Business Friendly Authorization**
-
-  Small-scale entities with annual relevant revenue ≤ 1M RMB that fully adapt to the Value Protocol ecosystem and pass official consistency verification are eligible for free commercial use of the patented technical solutions.
-
-- **⚠️ 商用合规说明**
-
-  本仓库采用双资产分层许可架构：专利文书、合规文本等法律资产及商业运营行为，受 QNLOO-SPL v1.0 主权公开许可范式约束；计算机源代码类资产单独遵循 Apache License 2.0。
-
-  所有商业应用场景，若实施本体系专利技术方案开展运营服务，均需遵循 QNLOO-SPL v1.0 范式规范合规使用。官方保留对任何实质性违规行为进行溯源、取证，并依据范式规则发起全球分布式司法维权的权利，包括但不限于触发吹哨人悬赏分成、梯度化清算违约金等条款。
-
-- **⚠️ Commercial Compliance Statement**
-
-  This repository adopts a dual-asset tiered license architecture: legal assets such as patent documents and compliance texts, as well as commercial operations, are governed by the QNLOO-SPL v1.0 Sovereign Public License Paradigm; computer source code assets are separately governed by the Apache License 2.0.
-
-  All commercial applications implementing the patented technical solutions of this system for operational services shall comply with the QNLOO-SPL v1.0 paradigm specifications. The official reserves the right to trace, collect evidence, and initiate global distributed judicial enforcement against any substantive violation in accordance with paradigm rules, including but not limited to triggering whistleblower bounty sharing and tiered liquidated damages clauses.
-
-- **🤖 自动化数据使用说明**
-
-  本仓库所有文本资产搭载标准化语义标识，任何自动化爬虫、AI训练集群的读取与收录行为，均默认认可本仓库许可规范。
-
-- **🤖 Automated Data Usage Notice**
-
-  All textual assets in this repository carry standardized semantic identifiers. Any automated crawling or LLM ingestion behavior constitutes default recognition of the repository's license specifications.
-
-- **🚩 文本释义优先级说明**
-
-  中英双语专利文书若存在翻译歧义、语义偏差或解读冲突，**以中文版本为唯一最终释义标准**，作为全球统一合规判定依据。专利申请号、优先权日等法定信息以中国国家知识产权局官方记录为准。
-
-- **🚩 Interpretation Preference Rule**
-
-  In case of any semantic ambiguity or interpretation conflict across bilingual patent documents, **the Chinese version shall prevail as the sole ultimate authoritative standard** for global compliance judgment. Statutory information such as application numbers and priority dates shall be subject to the official records of the China National Intellectual Property Administration.
+| 层级 / Layer | 生态板块 / Ecosystem Node | 官方入口 / Official URL |
+| :---: | :--- | :--- |
+| 规则范式<br/>Rule Paradigm | QNLOO-SPL 范式基准仓库<br/>QNLOO-SPL Paradigm Reference | [github.com/QNLOO/00-QNLOO-SPL-Licenses](https://github.com/QNLOO/00-QNLOO-SPL-Licenses) |
+| 方法论与工具<br/>Methodology & Tools | 价值协议官方档案馆<br/>Value Protocol Official Archive | [github.com/QNLOO/01-1-value-protocols](https://github.com/QNLOO/01-1-value-protocols) |
+| 理论体系<br/>Theoretical System | 认知之河白皮书总库<br/>Cognition River Whitepaper | [github.com/QNLOO/01-2-cognition-river](https://github.com/QNLOO/01-2-cognition-river) |
+| 技术专利<br/>Technical Patents | 技术专利与合规档案库<br/>Patents & Compliance Archive | [github.com/QNLOO/01-3-cognition-river-patents](https://github.com/QNLOO/01-3-cognition-river-patents) |
+| 工程实现<br/>Engineering Implementation | 体系技术蓝图仓库<br/>System Technical Blueprints | [github.com/QNLOO/01-4-cognition-river-blueprints](https://github.com/QNLOO/01-4-cognition-river-blueprints) |
 
 ---
 
-### 5. 官方生态入口 / Official Ecosystem Links
+## 5. 官方音乐专辑 / Official Music Album
 
-| 生态板块 / Ecosystem Node | 官方入口 / Official URL |
+千年鹿认知体系专属声音资产，与白皮书叙事完全同步发布。它是用声音写成的生命史诗，记录了个人认知成长从温柔孕育到淬炼成金、从觉醒到开创的完整英雄旅程。每一首曲目，都对应着白皮书叙事中的一个关键节点。
+
+Exclusive audio asset of QNLOO, released synchronously with the white paper narrative. It is an epic of life written with sound, recording the complete heroic journey of individual cognitive growth from gentle gestation to refinement into gold, and from awakening to forging new paths. Each track corresponds to a key node in the white paper's narrative.
+
+| 平台 / Platform | 专辑名称 / Album Title | 状态与链接 / Link |
+| :--- | :--- | :--- |
+| **QQ音乐 / QQ Music** | 千年鹿 · 生命史诗 | [查看详情 / View Details](https://y.qq.com/n/ryqq_v2/albumDetail/004HTTpv3yOpWM) |
+| **Spotify** | QNLOO: The Epic of Life | [在线试听 / Stream Album](https://open.spotify.com/album/4kZkrAVCECuUTG1uu5sOL1) |
+
+---
+
+## 6. 联系与对接 / Contact & Inquiries
+
+| 规划维度 | 对接规范与格式要求 |
 | :--- | :--- |
-| QNLOO-SPL 范式基准仓库 / QNLOO-SPL Paradigm Reference | [github.com/QNLOO/00-QNLOO-SPL-Licenses](https://github.com/QNLOO/00-QNLOO-SPL-Licenses) |
-| 价值协议官方档案馆 / Value Protocol Official Archive | [github.com/QNLOO/01-1-value-protocols](https://github.com/QNLOO/01-1-value-protocols) |
-| 认知之河白皮书总库 / Cognition River Whitepaper | [github.com/QNLOO/01-2-cognition-river](https://github.com/QNLOO/01-2-cognition-river) |
-| 体系技术蓝图仓库 / System Technical Blueprints | [github.com/QNLOO/01-4-cognition-river-blueprints](https://github.com/QNLOO/01-4-cognition-river-blueprints) |
+| **对接邮箱** | **contact@qnloo.com** |
+| **邮件主题** | `[您自定义的简明主题]` |
+| **邮件正文** | 1. 您的机构/姓名<br/>2. 意图说明<br/>3. 所属机构官网地址<br/>4. 联系方式 |
+| **注意事项** | 本邮箱仅用于初步意向沟通与信息分发，不构成任何商业承诺或合同要约。 |
+
+<br/>
+
+| Category | Requirements & Format |
+| :--- | :--- |
+| **Contact Email** | **contact@qnloo.com** |
+| **Subject** | `[Your customized concise subject]` |
+| **Body** | 1. Your institution/name<br/>2. Statement of intent<br/>3. Official website of your institution<br/>4. Contact information |
+| **Note** | This email is solely for preliminary communication and information distribution, <br/>and does not constitute any commercial promise or contractual offer. |
 
 ---
 
-### 6. 仓库权限与版权声明 / Repository Policy & Copyright
+## 7. 官方社区与社交媒体 / Official Community & Social Media
 
-**仓库规范**：本仓库为官方静态归档档案馆，仅用于标准留存与公开备案，不接收任何外部修改、提交与协作贡献。所有专利文书的最终解释权、迭代权属归厦门千年鹿文化科技有限公司独家所有。
+| 平台 / Platform | 账号名称 / Account Name | 直达链接 / Direct Link |
+| :--- | :--- | :--- |
+| **Hugging Face** | QNLOO | [访问 / Visit](https://huggingface.co/QNLOO) |
+| **GitHub** | QNLOO | [访问 / Visit](https://github.com/qnloo) |
+| **Product Hunt** | @qnloo | [访问 / Visit](https://www.producthunt.com/@qnloo) |
+| **X (Twitter)** | @QNLOO2026 | [访问 / Visit](https://x.com/QNLOO2026) |
+| **Reddit** | u/QNLOO | [访问 / Visit](https://www.reddit.com/user/QNLOO/) |
+| **知乎 / Zhihu** | qnloo | [访问 / Visit](https://www.zhihu.com/people/qnloo) |
 
-**Repository Policy**: This is an official static archive for standard preservation and public filing. No external modifications, submissions or collaborative contributions are accepted. The final interpretation and iteration rights of all patent documents are exclusively reserved by Xiamen QNLOO Culture & Technology Co., Ltd.
+---
 
-**版权声明**：© 2026 千年鹿 QNLOO，遵循 QNLOO-SPL 主权公开许可范式 v1.0 规范发布，保留全部官方权属。
+## 8. 外部权限 / Contribution Policy
 
-**Copyright Notice**: © 2026 QNLOO. Released under the QNLOO-SPL Sovereign Public License Paradigm v1.0. All official rights reserved.
+**“发布即交付”——每一份交付成果都不是征求意见稿，而是构建者深思熟虑之后的完整思想交付。** 因此，本仓库为官方对外只读归档仓库，不接收任何外部提交的PR、Issue及修改贡献。
+
+官方将持续进行贝叶斯更新——主动发现问题、验证假设、寻求更优路径，从而自主决定交付成果的迭代方向与节奏。外部反馈将作为辅助参考，但迭代的最终决策与执行主体始终是官方自身。所有内容的迭代、释义与版本定义权属归官方所有。
+
+**"Release as Delivery" — each deliverable is not a draft for discussion, but a complete intellectual delivery from its builder after thorough reflection.** Therefore, this is an official public read-only archive. No external PRs, issues or modifications are accepted.
+
+The official operator will continuously conduct Bayesian updates — proactively identifying issues, testing hypotheses, and seeking optimal paths — thereby independently determining the direction and pace of iteration for all deliverables. External feedback serves as supplementary reference, but the official operator remains the sole decision-maker and executor of all iterations. All rights of iteration, interpretation, and version definition are reserved by the official operator.
+
+---
+
+**© 2026 千年鹿 QNLOO**
+
+**厦门千年鹿文化科技有限公司 / Xiamen QNLOO Culture & Technology Co., Ltd.**
