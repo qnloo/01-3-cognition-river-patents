@@ -49,19 +49,19 @@ This patent portfolio is not only a weapon against plagiarism by large corporati
 
 **Description**: All six patents below have been formally filed with the China National Intellectual Property Administration, with the priority date uniformly locked on June 15, 2026. The complete matrix follows a three-tier layout of "Infrastructure Layer - Trust Rule Layer - Commercial Application Layer," forming a technology and legal encirclement barrier that cannot be bypassed at any single point through systematic architectural coupling and interactive data flow design.
 
-| 架构层级 / Tier | 编号 / No. | 专利名称 / Patent Name | 专利申请号 / App No. | 初审状态 / Status | 核心定位 / Core Positioning |
+| 架构层级 / Tier | 编号 / No. | 专利名称 / Patent Name | 专利申请号 / App No. | 初审与提前公开 / Prelim. Exam & Pub. | 核心定位 / Core Positioning |
 | :--- | :---: | :--- | :---: | :---: | :--- |
-| 基础设施层<br>Infra. | P-01 | 一种三层分离的多智能体系统运行系统及方法<br>A Three-Layer Separated Multi-Agent System Operating System and Method | 2026108583311 | ⏳ | 全局母案·物理隔离底座<br>Master case · Physical isolation base |
-| 基础设施层<br>Infra. | P-02 | 一种基于标准化认知协议的人机协作方法及系统<br>A Human-Machine Collaboration Method and System Based on Standardized Cognitive Protocols | 2026108586343 | ⏳ | 协议底座·标准化容器与动态握手<br>Protocol base · Standardized container & handshake |
-| 基础设施层<br>Infra. | P-03 | 一种基于哈希指纹的认知资产本地确权与增量同步系统及方法<br>A Cognitive Asset Local Rights Confirmation and Incremental Synchronization System and Method Based on Hash Fingerprints | 2026108589021 | ⏳ | 资产底座·知识指纹存证与物理消磁<br>Asset base · Fingerprint evidence & physical erasure |
-| 信任规则层<br>Trust | P-04 | 一种基于智能合约的认知资产多级收益自动分账系统及方法<br>A Smart Contract-Based Multi-Level Revenue Auto-Settlement System and Method for Cognitive Assets | 2026108592787 | ✅ | 价值分配·18代谱系级联分润<br>Value distribution · 18-gen lineage cascading |
-| 信任规则层<br>Trust | P-05 | 一种基于逻辑连续性的多智能体交互真诚度审计方法及系统<br>A Logic Continuity-Based Multi-Agent Interaction Sincerity Audit Method and System | 2026108595022 | ⏳ | 信任判定·因果对齐与阶梯惩戒<br>Trust judgment · Causal alignment & tiered penalty |
-| 商业应用层<br>Comm. | P-06 | 一种基于效果验证的动态定价与最小化验证系统及方法<br>An Outcome-Verified Dynamic Pricing and Minimal Verification System and Method | 2026108596453 | ✅ | 商业入口·按效果计费与法币结算<br>Commercial gateway · Outcome-based billing |
+| 基础设施层<br>Infra. | P-01 | 一种三层分离的多智能体系统运行系统及方法<br>A Three-Layer Separated Multi-Agent System Operating System and Method | 2026108583311 | 初审中 / Under Prelim. Exam | 全局母案·物理隔离底座<br>Master case · Physical isolation base |
+| 基础设施层<br>Infra. | P-02 | 一种基于标准化认知协议的人机协作方法及系统<br>A Human-Machine Collaboration Method and System Based on Standardized Cognitive Protocols | 2026108586343 | 初审中 / Under Prelim. Exam | 协议底座·标准化容器与动态握手<br>Protocol base · Standardized container & handshake |
+| 基础设施层<br>Infra. | P-03 | 一种基于哈希指纹的认知资产本地确权与增量同步系统及方法<br>A Cognitive Asset Local Rights Confirmation and Incremental Synchronization System and Method Based on Hash Fingerprints | 2026108589021 | 初审合格 / Qualified | 资产底座·知识指纹存证与物理消磁<br>Asset base · Fingerprint evidence & physical erasure |
+| 信任规则层<br>Trust | P-04 | 一种基于智能合约的认知资产多级收益自动分账系统及方法<br>A Smart Contract-Based Multi-Level Revenue Auto-Settlement System and Method for Cognitive Assets | 2026108592787 | 初审合格 / Qualified | 价值分配·18代谱系级联分润<br>Value distribution · 18-gen lineage cascading |
+| 信任规则层<br>Trust | P-05 | 一种基于逻辑连续性的多智能体交互真诚度审计方法及系统<br>A Logic Continuity-Based Multi-Agent Interaction Sincerity Audit Method and System | 2026108595022 | 初审中 / Under Prelim. Exam | 信任判定·因果对齐与阶梯惩戒<br>Trust judgment · Causal alignment & tiered penalty |
+| 商业应用层<br>Comm. | P-06 | 一种基于效果验证的动态定价与最小化验证系统及方法<br>An Outcome-Verified Dynamic Pricing and Minimal Verification System and Method | 2026108596453 | 初审合格 / Qualified | 商业入口·按效果计费与法币结算<br>Commercial gateway · Outcome-based billing |
 
-> 以上专利均处于国家知识产权局审查阶段，最终保护范围以官方公开的授权公告文本为准。优先权日统一为2026年6月15日。
+> 以上专利均处于国家知识产权局审查阶段，最终保护范围以官方公开的授权公告文本为准。优先权日统一为2026年6月15日，且已于同日同步提交提前公开与实质审查请求。
 
  
-> All patents above are under examination by the national intellectual property administration. The final scope of protection shall be subject to the officially published grant announcement. The priority date is uniformly June 15, 2026.
+> All patents above are under examination by the national intellectual property administration. The final scope of protection shall be subject to the officially published grant announcement. The priority date is uniformly June 15, 2026, and requests for early publication and substantive examination were simultaneously submitted on the same date.
 
 ---
 
@@ -195,7 +195,6 @@ flowchart TD
 - **Top-tier legal assets PDF-only rule**: The six core patent documents and supporting compliance files, as top-tier authoritative legal assets, are archived only in PDF format for official standard retention and prior-art evidence preservation.
 
 ---
-
 
 ## 4. 官方生态入口 / Official Ecosystem Links
 
