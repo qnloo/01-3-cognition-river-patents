@@ -122,6 +122,14 @@ flowchart TD
 | 本地确权与多级分账联动<br>Confirmation & Settlement Linkage | P-03 ↔ P-04 | P-03在本地生成资产哈希指纹并链上确权，P-04读取所有权指纹建立18代分账谱系，通过回溯`parent_protocol_owner`指纹计算分润比例并更新`pending_withdrawals` |
 | 连续自洽审计与动态定价联动<br>Audit & Pricing Linkage | P-05 ↔ P-06 | P-05对多轮交互执行四维逻辑不连续性检测并输出`sincerity_score`，P-06接收评分并与三层价格网关联动，低分触发网关拦截、扣减配额或扣除质押款 |
 | 效果自律验证与直接结算联动<br>Verification & Settlement Linkage | P-06 ↔ e-CNY | P-06 TEE沙箱完成本地指标检测与物理消磁后输出脱敏布尔断言及硬件签名，清算合约执行Pull提款并与e-CNY可编程支付API进行锁步清算，以乐观锁状态锁阻断异步双花 |
+| 实体物理因果与主权清算跃迁<br>CPS & Physical Sincerity Linkage | (P-01~P-06) ↔ P-07 | P-01~P-06 确立了赛博空间智能体交互的信任与分账闭环；主权秩序核心母案 P-07 将该架构全面延伸至信息物理系统（CPS），将 P-05 四维因果扩展为包含客体因果恒定与时空测度咬合的五维模型，并将分账与流控落地为主权法定数字货币（SSDC）合约与内核级网络流控 |
+
+**体系专利矩阵演进：向实体经济赛博-物理系统（CPS）的实体化跃迁（P-07 母案）**
+
+P-01 至 P-06 构成了赛博空间内认知资产与多智能体协作的完整技术栈。随着体系演进至第二阶段《主权秩序》，该矩阵通过核心母案 **P-07 发明专利**（《一种基于时序逻辑连续性审计的赛博-物理系统通用信任评价系统及方法》，官方案卷归档于 [02-3-sovereign-order-patents](https://github.com/QNLOO/02-3-sovereign-order-patents)）实现向物理真实世界的穿透：
+1. **因果审计升维**：将 P-05 面向软件交互的“需求-方案-行为-效果”四维因果链，拓展为面向物联网（IoT）与实体供应链的“五维对称因果校验模型”，引入物理传感器遥测与时空运动学边界约束；
+2. **结算刚性落地**：将 P-04 的多级收益分配提炼为三元守恒分账函数 $\Phi(A)$，依托主权法定数字货币（SSDC，以数字人民币 e-CNY 为工程实施例）智能合约实现无资金池沉淀的即时清分；
+3. **软硬流控防线**：P-06 的应用层价格梯度拦截与 P-07 的操作系统内核级网络流控（套接字阻断与延迟注入）相互配合，形成立体防御体系。
 
 
 #### 2.4 代码资产与专利对应关系 / Code-to-Patent Mapping
@@ -202,6 +210,8 @@ flowchart TD
 
 The entire QNLOO cognition system consists of five core modules, covering five layers: rule paradigm, methodology & tool carrier, theoretical system, technical patents, and engineering implementation. All modules share the identical underlying logic.
 
+#### 基准生态矩阵（第一阶段：认知之河）/ Foundational Ecosystem Matrix
+
 | 层级 / Layer | 生态板块 / Ecosystem Node | 官方入口 / Official URL |
 | :---: | :--- | :--- |
 | 规则范式<br/>Rule Paradigm | QNLOO-SPL 范式基准仓库<br/>QNLOO-SPL Paradigm Reference | [github.com/QNLOO/00-QNLOO-SPL-Licenses](https://github.com/QNLOO/00-QNLOO-SPL-Licenses) |
@@ -209,6 +219,16 @@ The entire QNLOO cognition system consists of five core modules, covering five l
 | 理论体系<br/>Theoretical System | 认知之河白皮书总库<br/>Cognition River Whitepaper | [github.com/QNLOO/01-2-cognition-river](https://github.com/QNLOO/01-2-cognition-river) |
 | 技术专利<br/>Technical Patents | 技术专利与合规档案库<br/>Patents & Compliance Archive | [github.com/QNLOO/01-3-cognition-river-patents](https://github.com/QNLOO/01-3-cognition-river-patents) |
 | 工程实现<br/>Engineering Implementation | 体系技术蓝图仓库<br/>System Technical Blueprints | [github.com/QNLOO/01-4-cognition-river-blueprints](https://github.com/QNLOO/01-4-cognition-river-blueprints) |
+
+#### 第二阶段协同演进网络（主权秩序核心矩阵）/ Phase II Collaborative Network
+
+| 协同节点 / Node | 仓库路径 / Repository URL | 核心职能 / Core Function |
+| :---: | :--- | :--- |
+| **序章宣告** | [02-1-civilization-ascension](https://github.com/QNLOO/02-1-civilization-ascension) | 文明升维交响曲白皮书：第二阶段总纲宏观愿景 |
+| **理论基石** | [02-2-sovereign-order](https://github.com/QNLOO/02-2-sovereign-order) | 主权秩序官方白皮书：碳硅共生时代的文明契约与物理真诚协议 |
+| **法理卡位** | [02-3-sovereign-order-patents](https://github.com/QNLOO/02-3-sovereign-order-patents) | P-07 发明专利申报全案：国家知识产权局官方交底书与权利要求在先存证 |
+| **代码样板** | [02-4-sovereign-order-blueprints](https://github.com/QNLOO/02-4-sovereign-order-blueprints) | 物理真诚通用协议专利代码参考实现样板间（Rust）与本地验证环境 |
+| **未来演进** | [03-1-cognitive-structure-engineering](https://github.com/QNLOO/03-1-cognitive-structure-engineering) | 认知结构工程白皮书与运行时：解决大模型幻觉的三层技术栈与镜像自举 |
 
 ---
 
